@@ -1,0 +1,18 @@
+.countryCard{
+    border: 1px black solid;
+    text-align: left;
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+
+    h1{ margin-top: 0; }
+    h2{ margin-bottom: -10px; }
+    p{ margin-bottom: -6px; }
+    p:first-of-type{ margin-bottom: 25px; }
+}
+
+@media all and (max-width: 500px){
+    .countryCard{
+        width: 80%;
+    }
+}

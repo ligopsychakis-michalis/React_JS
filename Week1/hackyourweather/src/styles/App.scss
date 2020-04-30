@@ -1,0 +1,10 @@
+.app{ 
+    text-align: center;
+    margin-top: 5vh;
+    font-family: sans-serif;
+    h1{ font-weight: 400; }
+}
+
+@media all and (max-width: 500px){
+    .app{ font-size: 0.9em; }
+}
