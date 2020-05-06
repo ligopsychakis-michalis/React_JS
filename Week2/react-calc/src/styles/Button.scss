@@ -1,0 +1,11 @@
+.btn{
+    flex-basis: 23%;
+    text-align: center;
+    padding: 20px 0;
+    border: 0.1px solid #888888;
+    cursor: pointer;
+
+    &.grey{ background-color: #e0e1e6; color: #888888; }
+    &.orange{ background-color: #fe9241; color: white; }
+
+}
