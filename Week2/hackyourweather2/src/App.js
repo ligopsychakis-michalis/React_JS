@@ -16,7 +16,7 @@ function App() {
     e.target.previousSibling.value = "";
 
     try{
-        const res = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`);
+        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`);
         const data = await res.json();
         if(data.cod != 200){
           throw new Error("No country by that name..");
