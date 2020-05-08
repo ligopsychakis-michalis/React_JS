@@ -1,0 +1,41 @@
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    margin: 60px auto 70px auto;
+
+    input{
+        font-family: 'Playfair Display', serif;
+        font-size: 1.2em;
+        border-radius: 10px;
+        padding: 5px 10px;
+        outline: none;
+    }
+
+    button{
+        font-family: 'Playfair Display', serif;
+        font-size: 1.2em;
+        outline: none;
+        color: #414141;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #e4e4e4;
+        box-shadow: 1px 1px 4px 0px #585858;
+        padding: 5px 15px;
+    }    
+}
+
+@media all and (max-width: 768px){
+    form{
+        flex-direction: column;
+        margin: 30px auto 40px auto;
+
+        button{ margin-top: 10px; }
+    }
+}
+
+@media all and (max-width: 500px){
+    form{
+        width: 80%;
+    }
+}

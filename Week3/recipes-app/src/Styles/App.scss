@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    background-repeat: no-repeat;
+    overflow: auto;
+    font-size: 1.2em;
+    letter-spacing: 0.01em;
+
+    #picnic{
+        position: absolute;
+        top: -30vw;
+        width: 100vw;
+        z-index: -1;
+        left: 0;
+        box-shadow: 0px 1px 10px #585858;
+    }
+
+    .recipes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+    }   
+}
+
+@media all and (max-width: 768px){
+    body{
+        font-size: 1em;
+        overflow-x: hidden;
+
+        #picnic{ width:113vw; } 
+        .recipes{ justify-content: center; }
+    }    
+}
