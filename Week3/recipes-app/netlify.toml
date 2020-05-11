@@ -1,0 +1,3 @@
+[build]
+    base = "Week3/recipes-app/"
+    command = "npm run build"
