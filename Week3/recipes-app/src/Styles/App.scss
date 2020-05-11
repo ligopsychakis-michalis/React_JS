@@ -17,20 +17,29 @@ body{
     }
 
     .recipes{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 330px);
         justify-content: space-between;
         width: 95%;
         margin: auto;
     }   
 }
 
+@media all and (max-width: 1045px){
+   body .recipes{ justify-content: center; }
+
+}
+
+
 @media all and (max-width: 768px){
     body{
         font-size: 1em;
         overflow-x: hidden;
 
-        #picnic{ width:113vw; } 
-        .recipes{ justify-content: center; }
+        #picnic{ 
+            width:200%; 
+            top: 0;
+            right: 0;
+        } 
     }    
 }
