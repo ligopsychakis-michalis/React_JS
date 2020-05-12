@@ -7,6 +7,7 @@ require('dotenv').config()
 
 
 function App() {
+  console.log(process.env);
   const weatherList = weatherJson.map((country, index) => <CountryCard index = {index} key = {index}/>);
   const [countryInfo, setCountryInfo] = useState(null);
 
