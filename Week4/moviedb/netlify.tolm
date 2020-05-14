@@ -1,0 +1,2 @@
+base = "Week4/moviedb"
+publish = "Week4/moviedb/build"

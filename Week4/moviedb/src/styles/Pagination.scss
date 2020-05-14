@@ -1,0 +1,20 @@
+.pagination{
+    margin: 25px 10%;
+    
+    button{
+        margin: 0 5px 0 0;
+        outline: none;
+        border: none;
+        font-size: 0.9em;
+        background-color: #313131;
+        color: #d1cbcb;
+
+        &:hover{ cursor: pointer; }
+
+        &:focus{
+            background-color: #eb4343;
+            color: white;
+            transform: scale(1.3);
+        }
+    }
+}

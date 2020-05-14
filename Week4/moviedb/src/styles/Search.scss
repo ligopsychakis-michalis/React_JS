@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    justify-content: center;
+
+    input{
+        width: 300px;
+        margin: auto;
+        margin-top: 35px;
+        padding: 10px;
+        font-size: 1.2em;
+        outline: none;
+        border: none;
+        background-color: #313131;
+        color: #d1cbcb;
+        border-bottom: 1px solid #c4b7ae;
+
+        &:focus{
+            border-bottom: 2px solid #2acc9d;
+        }
+    }
+}
+
+@media all and (max-width: 350px){
+    form{
+        input{ width: 80%; }
+    }
+}

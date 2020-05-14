@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: #313131;
+}
+
+.moviesContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+@media all and (max-width: 800px){
+    .moviesContainer{ justify-content: center; }
+}
+
+@media all and (max-width: 350px){
+    body{
+        font-size: 0.9em;
+    }
+
+    .moviesContainer{
+        grid-template-columns: repeat(auto-fill, 100%);
+        width: 90%;
+    }
+}

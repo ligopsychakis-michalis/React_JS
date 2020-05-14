@@ -1,0 +1,21 @@
+.movieCard{
+    box-shadow: 0px 0px 5px 0px #242424;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    background-color: #c2a996;
+
+    img{ 
+        border-radius: 3px 3px 0 0; 
+        width: 300px;
+        min-height: 95.4%;
+    }
+    a{ padding: 10px; }
+}
+
+@media all and (max-width:350px){
+    .movieCard{
+        img{
+            width: 100%;
+        }
+    }
+}
