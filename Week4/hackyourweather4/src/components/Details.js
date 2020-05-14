@@ -20,7 +20,7 @@ export function Details(){
     let cityName = "";
 
     useEffect(() => {
-        fetch(`http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&APPID=${API_KEY}`)
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?id=${cityId}&APPID=${API_KEY}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
