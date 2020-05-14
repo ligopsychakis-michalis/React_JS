@@ -6,3 +6,7 @@ react_projects
 - HackYourWeather3: https://hack-your-weather3.netlify.app
 - React_Recipes: https://find-recipes.netlify.app
 - React_Calculator: https://react0calculator.netlify.app
+- Movie_Finder: https://movie0finder.netlify.app
+
+
+
