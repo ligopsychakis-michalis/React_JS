@@ -1,0 +1,46 @@
+.search{
+    display: flex;
+    align-items: center;
+    width: 445px;
+    margin: auto;
+    input{
+        font-size: 1em;
+        padding: 0 5px;
+        overflow: scroll;
+        border: 1px solid black;
+        border-radius: 13px;
+        margin-left: 3px;
+        flex: 1;
+        height: 40px;
+        outline: none;
+    }
+
+    button{
+        font-size: 1em;
+        font-family: sans-serif;
+        background-color: #dedede;
+        padding: 0 20px;
+        border-radius: 5px;
+        margin-left: 30px;
+        cursor: pointer;
+        border: 1px solid black;
+        height: 40px;
+        outline: none;
+    }
+}
+
+@media all and (max-width: 500px){
+    .search{ 
+        width: 90%; 
+        flex-wrap: wrap;
+
+        input{
+            flex-basis: 60%;
+        }
+
+        button{
+            flex-basis: 100%;
+            margin: 10px 0 0 18px;
+        }
+    }
+}
