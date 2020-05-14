@@ -21,6 +21,7 @@ function App() {
       .then(data => {
         data.total_pages = 1;
         setMovies(data);
+        document.querySelector("button").classList.add('selected');
       });
   },[]);
 

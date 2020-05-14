@@ -7,3 +7,10 @@
     margin-left: 15%;
     font-size: 1.5em;
 }
+@media all and (max-width: 768px){
+    .error{
+        width: 80%;
+        margin: auto;
+        font-size: 1.3em;
+    }
+} 

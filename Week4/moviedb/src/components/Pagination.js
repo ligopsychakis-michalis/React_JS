@@ -9,12 +9,7 @@ export default function Pagination({pages, changePage}){
         return (
             <div className="pagination">
                 {pagesArray.map((page,i) => (
-                    <button 
-                        autoFocus={i == 0} 
-                        className="pages" 
-                        onClick={changePage} 
-                        key={i}
-                    >
+                    <button className="pages" onClick={changePage} key={i}>
                         {page}
                     </button>
                 ))}
