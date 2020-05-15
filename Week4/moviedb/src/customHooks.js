@@ -32,7 +32,7 @@ export function useGetMovies(){
           setTimeout(() => setError(""), 2500);
         }; 
 
-        //show page's button as active
+        //show page's button as selected
         document.querySelectorAll("button").forEach(btn => btn.classList.remove('selected'));
         document.querySelectorAll("button")[parseInt(data.page) - 1].classList.add('selected');
 

@@ -20,3 +20,7 @@
         outline: none;
     }
 }
+
+@media all and (max-width:950px){
+    .details{ justify-content: flex-start; }
+}
